@@ -246,7 +246,7 @@ export default function Navigation() {
 
       <header className="relative bg-white">
         <p className="flex h-10 items-center justify-center bg-indigo-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
-          Get free delivery on orders over $100
+          Free shipping for standard order over $100
         </p>
 
         <nav aria-label="Top" className="mx-auto">
@@ -266,7 +266,7 @@ export default function Navigation() {
                 <Link to="/">
                   <span className="sr-only">Your Company</span>
                   <img
-                    src= {IMAGES.imgTwo}
+                    src={IMAGES.imgTwo}
                     alt="ShopwithFemSha"
                     className="h-8 w-8 mr-2"
                   />
@@ -445,7 +445,7 @@ export default function Navigation() {
                         <MenuItem onClick={handleCloseUserMenu}>
                           Profile
                         </MenuItem>
-                        
+
                         <MenuItem onClick={handleMyOrderClick}>
                           My Orders
                         </MenuItem>
